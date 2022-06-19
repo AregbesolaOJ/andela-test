@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Pressable, Text, TextInput, View } from 'react-native';
 
-const CoundownTimer = () => {
+export const CoundownTimer = () => {
   const [form, setForm] = useState({
     minute: '',
     seconds: '',
@@ -76,5 +76,3 @@ const CoundownTimer = () => {
     </View>
   );
 };
-
-export default CoundownTimer;

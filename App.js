@@ -15,7 +15,7 @@ import {
 } from 'react-native';
 
 import { Colors } from 'react-native/Libraries/NewAppScreen';
-import CoundownTimer from './components/CoundownTimer';
+import { CoundownTimer } from './components';
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
